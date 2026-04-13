@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     if (isset($_SESSION['cart'][$id])) {
         $_SESSION['cart'][$id]++;
     } else {
-        $_SESSION['cart'][$id] =1;
+        $_SESSION['cart'][$id] =2;
     }
      function cart_redirect(){
      echo"<script>
